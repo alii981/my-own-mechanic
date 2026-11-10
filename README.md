@@ -39,3 +39,6 @@ Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ 
 
 ## Disclaimer
 This is a learning game, not a service manual. Before working on a real car, check the manufacturer's procedures and torque specs, and work safely.
+
+## License
+[MIT](LICENSE). Car makes and models are named only to identify the vehicles; the in-game badge is an original design, not a manufacturer logo.
