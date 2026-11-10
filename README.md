@@ -2,6 +2,10 @@
 
 A browser game for learning car mechanics, in English and Romanian. Drive, notice the symptoms, take the car into the garage, read fault codes with an OBD scanner, test with real tools, find the faulty part, then strip and rebuild it in the order a real mechanic would.
 
+## ▶ How to play
+- **Online:** open **https://alii981.github.io/my-own-mechanic/** in Chrome, Edge or Firefox. Nothing to install.
+- **Offline file:** download [`play-offline.html`](play-offline.html) (click it, then the download button) and double-click it. It still needs an internet connection the first time, to load the 3D library.
+
 ## Features
 - **4 cars:** Renault Koleos 2.0 dCi (M9R, 4x4), VW Golf 4 1.9 TDI (ALH), Škoda Octavia II 1.6 MPI (BSE), Daewoo Matiz 0.8 (F8CV)
 - **100 scenarios** (25 per car), based on common real-world faults, with indirect hints and sources
