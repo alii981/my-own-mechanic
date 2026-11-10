@@ -1,13 +1,13 @@
 // Texte RO/EN și formatare
-export const state = { lang: 'ro' };
-try { state.lang = localStorage.getItem('ma_lang') || 'ro'; } catch (e) {}
+export const state = { lang: 'en' };
+try { state.lang = localStorage.getItem('ma_lang') || 'en'; } catch (e) {}
 export const T = (ro, en) => ({ ro, en });
 export const L = o => (o && typeof o === 'object' && !Array.isArray(o)) ? (o[state.lang] ?? o.ro) : o;
 export const fmt = (n, d = 2) => { const s = Number(n).toFixed(d); return state.lang === 'ro' ? s.replace('.', ',') : s; };
 export function setLang(l) { state.lang = l; try { localStorage.setItem('ma_lang', l); } catch (e) {} document.documentElement.lang = l; }
 
 export const S = {
-  brand: T('Mecanic Auto', 'Car Mechanic'),
+  brand: T('Propriul meu mecanic', 'My Own Mechanic'),
   menu: T('Meniu', 'Menu'),
   menuSub: T('Diagnostichează și repară defecte reale. Alege mașina.', 'Diagnose and fix real faults. Pick a car.'),
   cars: T('Mașini', 'Cars'),
